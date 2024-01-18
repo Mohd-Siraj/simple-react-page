@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 0 100%;
+  padding: 20px 50px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 23%;
+}
+.login{
+  background-color: red;
+  padding: 0px 10px;
+  border-radius: 5px;
+  color: white;
+}
+.content{
+  display: flex;
+  height: calc(100vh - 90px);
+  align-items: center;
+}
+.content1 h1{
+  line-height: 1;
+  font-size: 6rem;
+}
+.content1 p{
+  width: 25rem;
+}
+.content1{
+  padding: 0px 70px;
+}
+.shop{
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+.category{
+  margin: 0px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+.shoeName{
+  /* margin: 20px 0px;
+  height: 3rem; */
+  height: 487.06px;
+  width: 530px;
+}
+.shopping{
+  margin: 20px 0px;
+  height: 3rem;
+}
+@media (max-width:500px) {
+  .logo{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+}
